@@ -1,0 +1,36 @@
+body {
+  padding-top: 70px;
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2px; }
+
+.leftBox {
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-size: 15px;
+  margin: 2px;
+  float: left;
+  padding: 10px;
+  background-color: #F6F6F6; }
+
+.rightBox {
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-size: 12px;
+  margin: 2px;
+  flex: 50%;
+  float: right;
+  padding: 10px;
+  background-color: #F6F6F6; }
+
+#checkbox-container {
+  display: flex; }
+
+/*# sourceMappingURL=main.css.map */

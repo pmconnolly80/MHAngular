@@ -1,0 +1,60 @@
+{
+    "songs": [
+        {
+            "name": "Statesboro Blues",
+            "artist": "Allman Brothers Band",
+            "album": "Eat a Peach",
+            "year": 1972,
+            "label": "Capricorn"
+        },
+        {
+            "name": "One Way Out",
+            "artist": "Allman Brothers Band",
+            "album": "Eat a Peach",
+            "year": 1972,
+            "label": "Capricorn"
+        },
+        {
+            "name": "In Memory of Elizabeth Reed",
+            "artist": "Allman Brothers Band",
+            "album": "Eat a Peach",
+            "year": 1972,
+            "label": "Capricorn"
+        },
+        {
+            "name": "Midnight Rider",
+            "artist": "Allman Brothers Band",
+            "album": "Eat a Peach",
+            "year": 1972,
+            "label": "Capricorn"
+        },
+        {   "name": "Whipping Post",
+            "artist": "Allman Brothers Band",
+            "album": "Eat a Peach",
+            "year": 1972,
+            "label": "Capricorn"
+        },
+                {
+            "name": "Daddy's Cup",
+            "artist": "Drive-by Truckers",
+            "album": "The Dirty South",
+            "year": 2004,
+            "label": "New West"
+        },
+        {
+            "name": "Never Gonna Change",
+            "artist": "Drive-by Truckers",
+            "album": "The Dirty South",
+            "year": 2004,
+            "label": "New West"
+        },
+        {
+            "name": "Lookout Mountain",
+            "artist": "Drive-by Truckers",
+            "album": "The Dirty South",
+            "year": 2004,
+            "label": "New West"
+        }
+
+    ]
+}

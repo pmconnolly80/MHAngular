@@ -1,0 +1,46 @@
+{
+    "songs": [
+        {
+            "name": "Where the Devil Don't Stay",
+            "artist": "Drive-by Truckers",
+            "album": "The Dirty South",
+            "year": 2004,
+            "label": "New West"
+        },
+        {
+            "name": "Danko/Manuel",
+            "artist": "Drive-by Truckers",
+            "album": "The Dirty South",
+            "year": 2004,
+            "label": "New West"
+        }{
+            "name": "Two Dope Boyz (In a Cadillac)",
+            "artist": "Outkast",
+            "album": "ATLiens",
+            "year": 1996,
+            "label": "LaFace"
+        },
+        {
+            "name": "ATLiens",
+            "artist": "Outkast",
+            "album": "ATLiens",
+            "year": 1996,
+            "label": "LaFace"
+        },
+        {
+            "name": "Wheelz of Steel",
+            "artist": "Outkast",
+            "album": "ATLiens",
+            "year": 1996,
+            "label": "LaFace"
+        },
+        {
+            "name": "Elevators (Me & You)",
+            "artist": "Outkast",
+            "album": "ATLiens",
+            "year": 1996,
+            "label": "LaFace"
+        }
+
+    ]
+}

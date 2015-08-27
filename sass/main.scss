@@ -1,0 +1,44 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$border-radius: 3px;
+
+body {
+  padding-top: 70px;
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+
+.row-eq-height {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-flow: row wrap;
+  margin: 2px;
+}
+
+.leftBox {
+  border: 1px solid grey;
+  border-radius: $border-radius;
+  font-size: 15px;
+  margin: 2px;
+  float: left;
+  padding: 10px;
+  background-color: #F6F6F6;  
+}
+
+.rightBox {
+  border: 1px solid grey;
+  border-radius: $border-radius;
+  font-size: 12px;
+  margin: 2px;
+  flex: 50%;
+  float: right;
+  padding: 10px;
+  background-color: #F6F6F6;
+}
+
+#checkbox-container {
+  display: flex;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="lib/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel= "stylesheet" type="text/css" href="styles/main.css">
+  <title>Nashville Software School</title>
+</head>
+
+<body ng-app="musicApp">
+
+  <div class="row  row-eq-height">
+    <div class="leftBox col-xs-12 col-sm-4 col-md-3 col-lg-3">
+      <section ng-controller="SongCtrl">
+        <h3>Search:</h3>
+         <div>
+          <input type="text" ng-model="songSearchText" />
+        </div>
+
+        <div>
+            <h3>Select:</h3>
+          <select
+            ng-model="theSongs"
+            ng-options="value.album group by value.artist for value in songs">
+            <option>--</option>
+          </select>
+        </div>
+        <div>
+          <h3>Add:</h3>
+          <div>
+            Song Name:<input type:"text" ng-model="newSongs.name"/>
+          </div>
+          <div>
+            Album:<input type:"text" ng-model="newSongs.artist"/>
+          </div>
+          <div>
+            Artist:<input type:"text" ng-model="newSongs.album"/>
+          </div>
+            <button ng-click="addSong()">Add Song</button>
+        </div>
+      </section>
+    </div>
+
+
+    <div class="rightBox col-xs-12 col-sm-8 col-md-9 col-lg-9">
+      <section class="right-container" ng-controller="SongCtrl">
+        <ul class="song-list" ng-repeat="song in songs | filter: songSearchText">
+          <li><h2>{{song.name}}</h2> {{song.artist}} | {{song.album}}
+          <button ng-click="killSong(song)">Delete Song</button></li>
+      </ul>
+     </section>
+    </div>
+   </div>
+
+  <script src="lib/bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="lib/bower_components/angular/angular.min.js"></script>
+  <script src="lib/bower_components/bootstrap/dist/css/bootstrap.min.css"></script>
+  <script src="app/app.js"></script>
+  <script src="app/controllers/song.js"></script>
+</body>
+</html>
